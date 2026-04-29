@@ -1,0 +1,8 @@
+<Window x:Class="MyLibProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="Library" Height="350" Width="600">
+
+    <Grid>
+        <DataGrid ItemsSource="{Binding Books}" AutoGenerateColumns="True"/>
+    </Grid>
+</Window>
